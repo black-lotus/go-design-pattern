@@ -1,0 +1,32 @@
+master-service
+bin
+vendor
+coverage.txt
+go.mod.tmp
+hooman
+__debug_bin
+main_service.go
+
+# solid package
+/solid/srp/journal.txt
+
+
+# go test
+*.test
+*.out
+
+# MacOS
+.DS_Store
+
+# misc
+.idea
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+.envrc
+.env
+
+# docker image
+/docker/**
